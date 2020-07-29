@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    background-color:white;
+}
+
+.header{
+   
+    display:flex;
+    
+    
+}
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    display:flex;
+    flex-direction: row;
+   
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+
+
+#left-nav{
+    float:left;
+    padding-right: 80%;
+}
+    
+
+#right-nav{
+    float:right;
+    
+}
+
+a{
+   
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size:12px;
+    color:#484848;
+
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+ 
+  
+  
+    
+}
+
+#google-logo img{
+    height:80px;
+    width:240px;
+    padding-top: 50%;
+    padding-bottom: 5%;
+}
+
+#search-form{
+    justify-self: flex-end;
+    margin:auto;
+    height:40px;
+    border:1px;
+    border-style: solid;
+    border-color: #e4e4e4;
+    border-radius: 30px;
+    background-image: ;
+
+}
+
+
+
+.buttons{
+    display:flex;
+    margin:auto;
+  
+}
+
+
+#google-search , #lucky{
+    background-color: #f1f1f1;
+    color:#7e7e7e;
+    padding: 8px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+    border:none;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-right: 25px;
+}
+
+#google-search:hover{
+    background-color: #f1f1f1;
+    color:black;
+    border: .5px solid #d7d7d7;
+    box-shadow: 0px 15px,#f1f1f1;
+
+} 
+
+#lucky:hover{
+
+    background-color: #f1f1f1;
+    color:black;
+    border: .5px solid #d7d7d7;
+    box-shadow: 0px 15px,#f1f1f1;
+    
+
+}
+
